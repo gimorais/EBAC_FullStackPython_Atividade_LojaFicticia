@@ -4,3 +4,33 @@
     padding: 0;
     font-family: "Roboto", sans-serif;
 }
+
+header {
+    background-color: #096B68;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+}
+
+header nav {
+    display: flex;
+    gap: 2rem;
+}
+
+header a {
+    font-weight: 500;
+    text-decoration: none;
+    color: #fff;
+}
+
+header a:hover {
+    color: #90D1CA;
+}
+
+header h1 {
+    color: #fff;
+}
