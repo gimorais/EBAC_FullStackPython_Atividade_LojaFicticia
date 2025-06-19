@@ -33,4 +33,30 @@ header a:hover {
 
 header h1 {
     color: #fff;
+    font-style: italic;
+}
+
+.sobre-container {
+    display: flex;
+    justify-content: center;
+    padding: 2rem;
+    gap: 2rem;
+}
+
+.sobre-container .sobre-texto {
+    max-width: 35%;
+}
+
+.sobre-container .sobre-texto h2 {
+    width: 100%;
+    color:#096B68;
+    font-style: italic;
+    border-bottom: solid 2px #096B68;
+    padding-bottom: 1rem;
+}
+
+.sobre-container .sobre-texto p {
+    width: 100%;
+    text-align: justify;
+    padding-top: 1rem;
 }
